@@ -1,14 +1,109 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-  <title>Brieuc Tribouillet</title>
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/main.css" rel="stylesheet" />
+    <title>Brieuc Tribouillet</title>
+  </head>
+  <body>
+    <div class="max-w-3xl px-5 mx-auto">
+      <section class="flex items-center gap-10 py-5">
+        <img
+          class="w-36 h-36 object-cover rounded-full"
+          src="./assets/profile.jpeg"
+        />
+
+        <div>
+          <h1 class="text-4xl">Brieuc Tribouillet</h1>
+          <p class="my-3">
+            Software developer, tech. consultant & tech. mentor, A true believer
+            of worldwide distributed teams.
+          </p>
+          <p class="font-bold text-black">👉 brieuc.tribouillet@gmail.com</p>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="flex items-center gap-4 flex-wrap">
+          <a
+            href="https://www.linkedin.com/in/brieuc-tribouillet/"
+            target="_blank"
+            class="text-sm bg-yellow-300 rounded-md p-2 font-bold hover:bg-yellow-200 transition-colors"
+            >Linkedin</a
+          >
+          <a
+            href="https://github.com/btribouillet"
+            target="_blank"
+            class="text-sm bg-yellow-300 rounded-sm p-2 font-bold hover:bg-yellow-200 transition-colors"
+            >Github</a
+          >
+          <a
+            href="https://stackoverflow.com/users/3204919/brieuc"
+            target="_blank"
+            class="text-sm bg-yellow-300 rounded-sm p-2 font-bold hover:bg-yellow-200 transition-colors"
+            >Stackoverflow</a
+          >
+          <a
+            href="./assets/resume.pdf"
+            target="_blank"
+            class="text-sm bg-yellow-300 rounded-sm p-2 font-bold hover:bg-yellow-200 transition-colors"
+            >Download Resume</a
+          >
+        </div>
+      </section>
+
+      <section class="py-5">
+        <h2 class="text-2xl mb-3">Skills & Qualifications</h2>
+        <ul id="qualifications--list">
+          <li>✔️ 14 Years experience with front & backend development.</li>
+          <li>
+            ✔️ Strong problem-solving and analytical skills, with the ability to
+            identify and address complex technical issues efficiently and
+            effectively.
+          </li>
+          <li>
+            ✔️ Passionate about entrepreneurship, with a desire to take on new
+            challenges and work collaboratively with others to make informed
+            business decisions and drive success.
+          </li>
+        </ul>
+      </section>
+
+      <section class="py-5">
+        <h2 class="text-2xl mb-3">Tech stack</h2>
+
+        <div class="flex items-center flex-wrap gap-4">
+          <div
+            class="text-sm p-2 rounded-md border border-gray-400 hover:bg-gray-400 hover:text-white transition-colors"
+          >
+            <span>Javascript, NodeJS, SQL, Elixir, PHP, Python, Dart</span>
+          </div>
+          <div
+            class="text-sm p-2 rounded-md border border-gray-400 hover:bg-gray-400 hover:text-white transition-colors"
+          >
+            <span>Phoenix, Django</span>
+          </div>
+          <div
+            class="text-sm p-2 rounded-md border border-gray-400 hover:bg-gray-400 hover:text-white transition-colors"
+          >
+            <span>Vue, Nuxt, Phoenix LiveView, Flutter</span>
+          </div>
+          <div
+            class="text-sm p-2 rounded-md border border-gray-400 hover:bg-gray-400 hover:text-white transition-colors"
+          >
+            <span>Postgres, MySQL, Firebase/Firestore</span>
+          </div>
+          <div
+            class="text-sm p-2 rounded-md border border-gray-400 hover:bg-gray-400 hover:text-white transition-colors"
+          >
+            <span
+              >Wordpress, WooCommerce, Digital Ocean, Heroku, No/Low code
+              solutions</span
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
